@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         "德联络线下行0km000m至0km175m)至进德一场间上下线进行120分钟维修作业。\n"+
                         "受令车站:进德I场\n"+"车站值班员:张庚清";
                 //SendMessage("14986939016",msgBody);
-                String phone="14986939016";
+                String phone="14986939016";//目标号码
                 sendMessageByInterface2(phone,msgBody);
             }
         });
